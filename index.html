@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Food | Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"  />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="home">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top"  >
+        <div class="container-fluid">
+          <a class="navbar-brand m-3 " href="index.html"><h3>E-<span class="text-success">Food</span></h3></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item m-2">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item m-2">
+                <a class="nav-link" href="#steps">Steps</a>
+              </li>
+              <li class="nav-item m-2">
+                <a class="nav-link " href="#about" >
+                 Reviews
+                </a>
+              </li>
+              <li class="nav-item m-2">
+                <a class="nav-link " href="#about" >
+                 About US
+                </a>
+              </li>
+              <li class="nav-item m-2">
+                <li class="nav-item dropdown loc">
+                    
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-map-marker-alt"></i> Choose your location
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="andheri.html">Andheri</a></li>
+                      <li><a class="dropdown-item" href="bandra.html">Bandra</a></li>
+                      <li><a class="dropdown-item" href="borivali.html">Borivali</a></li>
+                      <li><a class="dropdown-item" href="kandivali.html">Kandivali</a></li>
+                    </ul>
+                  </li>
+              </li>
+            </ul>
+            <form class="d-flex m-4">
+              <a href="form.html" class="sign">Sign Up</a>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide text-white" data-bs-ride="carousel">
+        <div class="carousel-indicators text-white">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://images.pexels.com/photos/1036857/pexels-photo-1036857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-white">
+              <h5>We are open 24/7</h5>
+              <p>To fulfill your cravings.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://internship.suvenconsultants.com/projects/ubereats/main3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-white">
+              <h5>Maxed out effect</h5>
+              <p>To fulfill your cravings..</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://internship.suvenconsultants.com/projects/ubereats/mn1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-white">
+              <h5>Chilling Effect</h5>
+              <p>When you cant go to restaurant, bring restaurant to your home..</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev text-white" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon text-white" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next text-white" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon text-white" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <!-- 2 column container -->
+      <div class="container-fluid mt-3" id="steps">
+          <h2 class="mb-3">Easy steps to follow ....</h2>
+        <div class="row">
+          <div class="col-md-6">
+           <img src="https://internship.suvenconsultants.com/projects/ubereats/step1.jpeg"  width="100%" height="90%" alt="">
+          </div>
+          <div class="col-md-6 text-center mt-5">
+            Find out your ideal restaurant <br>
+from the variety we provide..
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+             <img src="https://images.pexels.com/photos/221299/pexels-photo-221299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"  width="100%" height="90%" alt="">
+            </div>
+            <div class="col-md-6 text-center mt-5">
+                Our drivers present in that locality <br>
+                will provide you your order..
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+             <img src="https://images.pexels.com/photos/35969/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"  width="100%" height="90%" alt="">
+            </div>
+            <div class="col-md-6 text-center mt-5">
+                Track your food Live..
+            </div>
+          </div>
+      </div>
+
+      <!-- footer container -->
+      <div class="container-fluid bg-dark  text-white pb-5 pt-4"  id="about">
+                   <h2 class="text-white  text-center footer_logo">
+                       E-<span class="text-success">FOOD</span>
+                   </h2>
+                   <div class="container pt-4">
+                       <div class="row footer_row">
+                           <div class="col-4 text-center mt-3 mb-3 line">
+                            Any questions? Feel free to contact us! <br>
+                            <i class="fas fa-map-marker-alt"></i> Mumbai, India <br>
+                            <i class="fas fa-mobile-alt"></i> Phone: +9029992209 <br>
+                            <i class="far fa-envelope"></i> Email: efood@gmail.com
+                           </div>
+                           <div class="col-4 text-center mt-3 mb-3 line">
+                            About e-Food <br>
+
+                            Become a Delivery Partner <br>
+                            
+                            Become a Restaurant Partner <br>
+                           </div>
+                           <div class="col-4 text-white text-center mt-3 mb-3 line">
+                            Help
+                            <br>
+                            FAQs
+                              <br>
+                            Blog
+                           </div>
+                       </div> 
+
+                       <div class="row">
+                            <div class="images text-center mt-3">
+                                 <img src="images/apple.png" alt="" width="90px" height="30px">
+                                 <img src="images/google.png" alt="" width="90px" height="30px">
+                                 <!-- <div class="circles">
+                                    <i class="far fa-circle"></i> <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                 </div> -->
+                            </div>
+                       </div>
+                   </div>  
+      </div> 
+      <div class="container-fluid mt-2">
+        <hr>
+      </div>
+  
+      <div class="container-fluid mt-3">
+          <div class="icon text-center">
+            <a href="#home" title="TO TOP">
+                <i class="fas fa-chevron-up"></i>
+            </a>
+          </div>
+      </div>
+</body>
+</html>
